@@ -1,0 +1,77 @@
+:root {
+    --corPrincipal: #11ff11;
+    --corConteudo: #000000;
+    --corFundo: #00240c;
+}
+* {
+    display: block;
+}
+.btnEnviar, #btnAmostra {
+    background: var(--corPrincipal);
+    color: var(--corConteudo);
+    border-radius: 10px;
+    width: 200px;
+    align-itens: center;
+}
+#alertaNome, #alertaLink {
+    text-align: center;
+    color: var(--corPrincipal);
+}
+.conter {
+    width: 90%;
+    height: 100%;
+    margin: 30% 20px;
+}
+.entradaDeDados {
+    border: 3px solid var(--corPrincipal);
+    border-radius: 8px;
+    background-color: var(--corConteudo);
+    align-itens: center;
+}
+body {
+    background: var(--corFundo);
+    width: 100%;
+    height: 100%;
+}
+h4 {
+    text-align: center;
+    font-size: 28px;
+    font-family: arial;
+    color: var(--corPrincipal);
+    margin: 10px;
+}
+input {
+    width: 80%;
+    height: 25px;
+    margin: 20px auto;
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 1px solid #dddddd;
+}
+input:hover {
+    border-bottom: 4px solid var(--corPrincipal);
+}
+#lista {
+    width: 90%;
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid #ff0000;
+    display: flex;
+    justify-content: center;
+    align-itens: center;
+}
+.nome {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+    border: 1px solid var(--corPrincipal);
+    display: block;
+}
+img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}

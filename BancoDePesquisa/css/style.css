@@ -1,0 +1,59 @@
+:root {
+    --corPrincipal: #11ff11;
+    --corConteudo: #000000;
+    --corFundo: #00240c;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background: var(--corFundo);
+    align-itens: center;
+    height: 100vh;
+    width: 85%;
+    font-family: sans-serif;
+}
+img {
+    width: 70px;
+}
+input {
+    width: 100%;
+    height: 40px;
+    padding: 8px 30px;
+    margin: 10px;
+    border: 1px solid var(--corPrincipal);
+    background: var(--corConteudo);
+    color: #fff;
+    border-radius: 8px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    background: #fff;
+    width: 100%;
+    margin: 5px 0;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+#btnAdicionar {
+    background: var(--corConteudo);
+    color: var(--corPrincipal);
+    font-size: 36px;
+    align-itens: center;
+    width: 100%;
+    height: 40px;
+    margin: 10px;
+    border: none;
+}
+.conter i {
+    position: absolute;
+}
+.fa-search {
+    padding: 5px;
+    top: 42px;
+    min-width: 50px;
+    text-align: center;
+    color: var(--corPrincipal);
+}
